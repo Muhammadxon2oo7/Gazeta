@@ -1,0 +1,112 @@
+.commentBar__wrapper{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(255, 255, 255, 0.53);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.7px);
+    -webkit-backdrop-filter: blur(5.7px);
+    z-index: 100;
+    animation-name: fadeInDown;
+    animation-duration: 0.5s;
+    .Comment__Bar {
+        width: 40%;
+        height: 80%;
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        background-color: #fff;
+        border-radius: 3px;
+        padding: 10px;
+        border-radius: 16px;
+        .title{
+            width: 100%;
+            height: 40px;
+            display: flex;
+            .chat__closeBtn{
+                width: 30px;
+                height: 100%;
+                color: red;
+                cursor: pointer;
+                
+            }
+            .chat__Name{
+                width: 100%;
+                // text-align: center;
+                z-index: 1;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                cursor: default;
+                animation-name: fadeInDown;
+                animation-duration: 1.0s;
+                p{
+                    color: #000;
+                }
+            }
+        }
+        .comment__body{
+            display: flex;
+            width: 100%;
+            height: 75%;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 10px;
+            // background: red;
+            p{
+                color: #959393;
+                font-size: 23px;
+            }
+        }
+        .comment__send__wrpper{
+            width: 100%;
+            height: auto;
+            display: flex;
+            justify-content: center;
+            .textarea{
+                width: 70%;
+                max-width: 90%;
+                min-height: 50px;
+                max-height: 80px;
+                border-radius: 12px 0 0 12px;
+                resize: vertical;
+                margin-right: 3px;
+                padding: 10px;
+                outline: dodgerblue;
+            }
+            .commentBtn{
+                width: 50px;
+                min-height: 50px;
+                max-height: 80px;
+                outline: none;
+                border: none;
+                background-color: dodgerblue;
+                color: #fff;
+                font-size: 22px;
+                border-radius: 0 12px 12px 0;
+            }
+        }
+    }
+}
+
+@keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        transform: translateY(-1.25em);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+@media only screen and (max-width:660px){
+    .commentBar__wrapper{
+        .Comment__Bar{
+            width: 60%;
+        }
+    }
+    
+}

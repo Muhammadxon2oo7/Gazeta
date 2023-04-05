@@ -1,0 +1,155 @@
+.post__card {
+  width: 90%;
+  padding: 15px;
+  border-radius: 3px;
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  height: auto;
+  margin-bottom: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.post__card .post__card__img__wrapper {
+  width: 40%;
+}
+.post__card .post__card__img__wrapper img {
+  width: 100%;
+  max-height: 300px;
+  border-radius: 3px;
+}
+.post__card .post__info {
+  width: 60%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: start;
+  align-items: flex-start;
+}
+.post__card .post__info .post__title {
+  width: 100%;
+  max-height: 40px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.post__card .post__info .post__title p {
+  font-size: 22px;
+}
+.post__card .post__info .post_dec {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 20px;
+}
+.post__card .post__info .post_dec p {
+  color: #6e6d6d;
+}
+.post__card .post__info .post_dec .post__like__wiewrs__time {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: end;
+  width: 100%;
+}
+.post__card .post__info .post_dec .post__like__wiewrs__time .post__wiewrs {
+  min-width: 45px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-right: 10px;
+}
+.post__card .post__info .post_dec .post__like__wiewrs__time .post__wiewrs p {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  cursor: pointer;
+}
+.post__card .post__info .post_dec .post__like__wiewrs__time .post__time {
+  margin-right: 10px;
+}
+.post__card .post__info .post_dec .post__like__wiewrs__time .post__time p {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 90px;
+  align-items: center;
+}
+.post__card .post__info .post_dec .post__like__wiewrs__time .post__like p {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 40px;
+}
+.post__card .post__info .post_dec .post__comment {
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.post__card .post__info .post_dec .post__comment .post__comment_textare {
+  width: 50%;
+  max-height: 60px;
+  min-height: 60px;
+  padding-left: 20px;
+  border-radius: 10px 10px 10px 10px;
+  resize: none;
+  padding-top: 5px;
+  border: 1px solid rgb(81, 81, 81);
+  outline: none;
+  display: flex;
+  margin-right: 4%;
+}
+.post__card .post__info .post_dec .post__comment .post__comment_textare:focus {
+  border: none;
+  outline: 1px solid dodgerblue;
+}
+.post__card .post__info .post_dec .post__comment .sendBtn__comments {
+  width: 30%;
+  display: flex;
+  height: 50px;
+  flex-wrap: wrap;
+  align-items: start;
+}
+.post__card .post__info .post_dec .post__comment .sendBtn__comments .post_sendBtn {
+  width: 100%;
+  background-color: dodgerblue;
+  color: #fff;
+  border: none;
+  height: 30px;
+  border-radius: 10px;
+}
+.post__card .post__info .post_dec .post__comment .sendBtn__comments p {
+  cursor: pointer;
+  margin-bottom: 4px;
+  font-size: 0.9rem;
+}
+.post__card .post__info .post_dec .post__comment .sendBtn__comments p:active {
+  color: dodgerblue;
+}
+
+@media only screen and (max-width: 890px) {
+  .post__card {
+    display: flex;
+    height: auto;
+    max-height: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .post__card .post__card__img__wrapper {
+    width: 100%;
+  }
+  .post__card .post__info {
+    width: 100%;
+  }
+  .post__card .post__info .post_dec {
+    display: flex;
+    align-items: start;
+  }
+}/*# sourceMappingURL=Post.module.css.map */

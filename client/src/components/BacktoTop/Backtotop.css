@@ -1,0 +1,25 @@
+.backtotop{
+    width: 48px;
+    height: 48px;
+    background-color: #f7f7f7;
+    border: 1px solid #ececec;
+    box-sizing: border-box;
+    box-shadow: 0 3px 5px rgb(0 0 0 / 6%);
+    border-radius: 50px;
+    position: fixed;
+    right: 25px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 210px;
+    z-index:25;
+}
+.backIcon{
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    border-style: none;
+    display: inline-block;
+    font-size: 24px;
+}

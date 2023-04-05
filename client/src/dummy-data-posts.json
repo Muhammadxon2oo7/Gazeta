@@ -1,0 +1,29 @@
+[
+    {
+        "title":"Sayt yaratish haqida",
+        "dec" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia ratione, soluta ex doloribus assumenda ut dicta fugit exercitationem nisi vitae libero. Dolorem quam veritatis, impedit sit iure non neque ut?",
+        "time" : "20.03.2023",
+        "wiewrs" : "220",
+        "like" : "30",
+        "comment" : "salom",
+        "img":"https://images.unsplash.com/photo-1517842645767-c639042777db?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bm90ZXN8ZW58MHx8MHx8&w=1000&q=80"
+    },
+    {
+        "title":"Telegram",
+        "dec" : "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate, omnis quam. Est molestias aliquam architecto dolore. Facilis repellat dignissimos accusantium architecto placeat a exercitationem quisquam, debitis qui perferendis nesciunt tempora enim est alias, distinctio at eveniet illum esse cupiditate quo aspernatur earum, assumenda repudiandae. Repudiandae laborum maxime accusantium, ipsum dicta quod deleniti quidem doloremque voluptate numquam, totam quis blanditiis nulla ratione facere ad aperiam odio a nemo quibusdam similique ipsa. Culpa, repellat animi! Consectetur amet saepe quasi, necessitatibus minus eaque similique quibusdam sed exercitationem ab, id deserunt dolorem laborum sunt quo reiciendis veniam. Laborum, perferendis facere. A reiciendis optio numquam.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia ratione, soluta ex doloribus assumenda ut dicta fugit exercitationem nisi vitae libero. Dolorem quam veritatis, impedit sit iure non neque ut?",
+        "time" : "20.03.2023",
+        "wiewrs" : "220",
+        "like" : "30",
+        "comment" : "salom",
+        "img" : "https://www.brainstorminc.com/hs-fs/hubfs/Img%201%20OneNote.jpg?width=1987&name=Img%201%20OneNote.jpg"
+    },
+    {
+        "title":"Business",
+        "dec" : "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate, omnis quam. Est molestias aliquam architecto dolore. Facilis repellat dignissimos accusantium architecto placeat a exercitationem quisquam, debitis qui perferendis nesciunt tempora enim est alias, distinctio at eveniet illum esse cupiditate quo aspernatur earum, assumenda repudiandae. Repudiandae laborum maxime accusantium, ipsum dicta quod deleniti quidem doloremque voluptate numquam, totam quis blanditiis nulla ratione facere ad aperiam odio a nemo quibusdam similique ipsa. Culpa, repellat animi! Consectetur amet saepe quasi, necessitatibus minus eaque similique quibusdam sed exercitationem ab, id deserunt dolorem laborum sunt quo reiciendis veniam. Laborum, perferendis facere. A reiciendis optio numquam.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate, omnis quam. Est molestias aliquam architecto dolore. Facilis repellat dignissimos accusantium architecto placeat a exercitationem quisquam, debitis qui perferendis nesciunt tempora enim est alias, distinctio at eveniet illum esse cupiditate quo aspernatur earum, assumenda repudiandae. Repudiandae laborum maxime accusantium, ipsum dicta quod deleniti quidem doloremque voluptate numquam, totam quis blanditiis nulla ratione facere ad aperiam odio a nemo quibusdam similique ipsa. Culpa, repellat animi! Consectetur amet saepe quasi, necessitatibus minus eaque similique quibusdam sed exercitationem ab, id deserunt dolorem laborum sunt quo reiciendis veniam. Laborum, perferendis facere. A reiciendis optio numquam.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate, omnis quam. Est molestias aliquam architecto dolore. Facilis repellat dignissimos accusantium architecto placeat a exercitationem quisquam, debitis qui perferendis nesciunt tempora enim est alias, distinctio at eveniet illum esse cupiditate quo aspernatur earum, assumenda repudiandae. Repudiandae laborum maxime accusantium, ipsum dicta quod deleniti quidem doloremque voluptate numquam, totam quis blanditiis nulla ratione facere ad aperiam odio a nemo quibusdam similique ipsa. Culpa, repellat animi! Consectetur amet saepe quasi, necessitatibus minus eaque similique quibusdam sed exercitationem ab, id deserunt dolorem laborum sunt quo reiciendis veniam. Laborum, perferendis facere. A reiciendis optio numquam.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia ratione, soluta ex doloribus assumenda ut dicta fugit exercitationem nisi vitae libero. Dolorem quam veritatis, impedit sit iure non neque ut?",
+        "time" : "20.03.2023",
+        "wiewrs" : "220",
+        "like" : "30",
+        "comment" : "salom",
+        "img":"https://img.freepik.com/premium-photo/blank-notepad-among-school-supplies-isolated_488220-13321.jpg?w=2000"
+    }
+]

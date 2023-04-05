@@ -1,0 +1,11 @@
+.footer__wrapper {
+  width: 100%;
+  background-color: #333;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer__wrapper p {
+  color: #fefefe;
+}/*# sourceMappingURL=Footer.module.css.map */

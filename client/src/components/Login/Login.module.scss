@@ -1,0 +1,150 @@
+
+*{
+    font-family: 'Oswald', sans-serif;
+}
+.login__wrapper{
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 120vh;
+    background-color: #f9fafc;
+    font-family: 'Oswald', sans-serif;
+    background-image: url("../../Assets/img/login_bg.jpg");
+    background-repeat:repeat-y;
+    background-size: cover;
+    font-family: '-apple-system',BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen,Ubuntu,'Fira Sans','Droid Sans','Helvetica Neue',sans-serif;
+    .login__logo__wrapper{
+        display: block;
+        width: 200px;
+        height: 120px;
+        margin-bottom: 40px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 40px;
+        margin-bottom: 100px;
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+    .login__form__wrapper{
+        width: 400px;
+        // height: 524px;
+        margin: 0 auto;
+        margin-bottom: 20px;
+        background-color: #ffffff;
+        border-radius: 3px;
+        padding: 25px 40px;
+        box-shadow: rgba(0,0,0,0.1) 0 0 10px;
+        .login__title{
+            width: 100%;
+            height: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 25px;
+            p{
+                text-align: center;
+                color: #000;
+                font-size: 22px;
+                letter-spacing: -0.01em;
+                line-height: 28px;
+                margin-top: 10px;
+                margin-bottom: 25px;
+                cursor: pointer;
+            }
+        }
+        .login__from{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            .login__form__input__email{
+                width: 95%;
+                height: 40px;
+                outline:1px solid #81B4F6;
+                font-size: 14px;
+                text-indent: 10px;
+                background-color: #fafbfc;
+                border: none;
+                -moz-box-sizing: border-box;
+                box-sizing: border-box;
+                border-radius: 3px;  
+                font-family: 'DM Mono', monospace;        
+                margin-bottom: 17px;  
+            }
+            .login__form__input__password__wrapper{
+                width: 95%;
+                height: 40px;
+                outline:1px solid #81B4F6;
+                
+                background-color: #fafbfc;
+                border: none;
+                box-sizing: border-box;
+                border-radius: 3px;  
+                margin-bottom: 17px;  
+                display: flex;
+                input{
+                    border: none;
+                    width: 90%;
+                    height: 100%;
+                    background-color: transparent;
+                    font-family: 'DM Mono', monospace;        
+                    font-size: 14px;
+                    text-indent: 10px;
+                    outline: none;
+                    padding-right: 4px;
+                }
+                img{
+                    width: 7%;
+                    height: 100%;
+                }
+            }
+            .login__submit__btn{
+                width:95%;
+                height: 35px;
+                outline: none;
+                border: none;
+                color: #fff;
+                font-size: 20px;
+                cursor: pointer;
+                border-radius: 3px;
+                font-family: 'DM Mono', monospace;        
+
+                background: #5AAC44;
+            }
+            .select__login__form__or{
+                width: 100%;
+                text-align: center;
+                font-size: 12px;
+                line-height: 1;
+                margin-top: 16px;
+                margin-bottom: 16px;
+                font-family: 'DM Mono', monospace;        
+
+            }
+            .login__with__google{
+                background: #fff;
+                color: rgba(0,0,0,0.54);
+                box-shadow: rgba(0,0,0,0.2) 1px 1px 5px 0;
+                border-color: transparent;
+                text-align: center;
+                border-radius: 3px;
+                width: 95%;
+                height: 39px;
+                padding-top: 0;
+                margin-bottom: 12px;
+                display: block;
+                text-decoration: none;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+    }
+}
+@media only screen and (max-width:445px){
+    .login__form__wrapper{
+        max-width: 80%;
+        background-color: red;
+    }
+}
